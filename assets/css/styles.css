@@ -116,19 +116,19 @@ img {
   padding: 2rem 0 4rem;
 }
 
-.section__title {
+.section_title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section__subtitle {
+.section_subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
 }
 
-.section__title, 
-.section__subtitle {
+.section_title, 
+.section_subtitle {
   text-align: center;
 }
 
@@ -162,7 +162,7 @@ img {
   align-items: center;
 }
 
-.nav_logo,
+.na_logo,
 .nav_toggle{
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -295,7 +295,7 @@ img {
 }
 
 .home_scroll{
-  /*display: none;*/
+  display: none;
 }
 
 .home_scroll-button{
@@ -304,7 +304,7 @@ img {
 }
 
 .home_scroll-button:hover{
-  transform: translateY(.25rem);
+  transform: translateY(0.25rem);
 }
 
 .home_scroll-mouse{
@@ -323,12 +323,35 @@ img {
 }
 
 
-
 /*==================== BUTTONS ====================*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.button_icon{
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+
+.button--flex{
+  display: inline-flex;
+  align-items: center;
+}
 
 /*==================== ABOUT ====================*/
-
+.about_img{
+  
+}
 
 /*==================== SKILLS ====================*/
 
