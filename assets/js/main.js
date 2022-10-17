@@ -26,7 +26,7 @@ function linkAction() {
   const navMenu = document.getElementById("nav-menu");
   // When we click on each nav__link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
-}
+}  
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== ACCORDION SKILLS ====================*/
@@ -53,7 +53,7 @@ const tabs = document.querySelectorAll('[data-target]'),
       
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
-    const target = document.querySelector(tab.dataset.target)
+    const target = document.querySelector(tab.dataSet.target)
 
     tabContents.forEach(tabContent => {
       tabContent.classList.remove('qualification_active')
