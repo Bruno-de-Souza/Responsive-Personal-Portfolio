@@ -26,7 +26,7 @@ function linkAction() {
   const navMenu = document.getElementById("nav-menu");
   // When we click on each nav__link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
-}  
+}
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== ACCORDION SKILLS ====================*/
@@ -48,26 +48,26 @@ skillsHeader.forEach((el) => {
   el.addEventListener("click", toggleSkills);
 });
 /*==================== QUALIFICATION TABS ====================*/
-const tabs = document.querySelectorAll('[data-target]'),
-  tabContents = document.querySelectorAll('[data-content]')
-      
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    const target = document.querySelector(tab.dataSet.target)
+const tabs = document.querySelectorAll("[data-target]"),
+  tabContents = document.querySelectorAll("[data-content]");
 
-    tabContents.forEach(tabContent => {
-      tabContent.classList.remove('qualification_active')
-    })
-    target.classList.add('qualification_active')
-    
-    tabs.forEach(tab => {
-      tab.classList.remove('qualification_active')
-    })
-    tab.classList.add('qualification_active')
-  })
-})
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = document.querySelector(tab.dataSet.target);
+
+    tabContents.forEach((tabContent) => {
+      tabContent.classList.remove("qualification_active");
+    });
+    target.classList.add("qualification_active");
+
+    tabs.forEach((tab) => {
+      tab.classList.remove("qualification_active");
+    });
+    tab.classList.add("qualification_active");
+  });
+});
 /*==================== SERVICES MODAL ====================*/
-
+const modalViews = document.querySelectorAll(".services_modal")
 /*==================== PORTFOLIO SWIPER  ====================*/
 
 /*==================== TESTIMONIAL ====================*/
