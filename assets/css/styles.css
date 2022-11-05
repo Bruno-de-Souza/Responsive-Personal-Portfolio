@@ -692,8 +692,15 @@ img {
   margin-right: var(--mb-0-25);
 }
 /* Active Modal */
-
+.active-modal{
+  opacity: 1;
+  visibility: visible;
+}
 /*==================== PORTFOLIO ====================*/
+.portfolio_container{
+  overflow: initial;
+}
+
 
 /*==================== PROJECT IN MIND ====================*/
 
