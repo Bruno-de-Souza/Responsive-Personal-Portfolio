@@ -68,28 +68,39 @@ tabs.forEach((tab) => {
 });
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll(".services_modal"),
-      modalBtns = document.querySelectorAll(".services_button"),
+  modalBtns = document.querySelectorAll(".services_button"),
   modalCloses = document.querySelectorAll(".services_modal-close");
-      
+
 let modal = function (modalClick) {
   modalViews[modalClick].classList.add("active-modal");
-}
+};
 
 modalBtns.forEach((modalBtn, i) => {
   modalBtn.addEventListener("click", () => {
-    modal(i)
-  })  
-})
+    modal(i);
+  });
+});
 
 modalCloses.forEach((modalClose) => {
   modalClose.addEventListener("click", () => {
     modalViews.forEach((modalViews) => {
       modalViews.classList.remove("active-modal");
-    })
-  })
-})
+    });
+  });
+});
 /*==================== PORTFOLIO SWIPER  ====================*/
-
+let swiper = new Swiper(".portfolio_container", {
+  cssMode: true,
+  navigation: {
+    nextE1: ".swiper-button-next",
+    prevE1: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewell: true,
+  keyboard: true,
+});
 /*==================== TESTIMONIAL ====================*/
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
