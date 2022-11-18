@@ -89,9 +89,10 @@ modalCloses.forEach((modalClose) => {
   });
 });
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper(".portfolio_container", {
+let swiperPortfolio = new Swiper(".portfolio_container", {
   cssMode: true,
   loop: true,
+
   navigation: {
     nextE1: ".swiper-button-next",
     prevE1: ".swiper-button-prev",
@@ -102,7 +103,22 @@ let swiper = new Swiper(".portfolio_container", {
   },
 });
 /*==================== TESTIMONIAL ====================*/
-
+let swiperTestimonial = new Swiper(".testimonial_container", {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 48,
+  
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  breakPoints: {
+    568: {
+      slidesPerview: 2,
+    }
+  }
+});
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
