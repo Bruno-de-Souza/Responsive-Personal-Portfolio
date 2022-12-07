@@ -627,10 +627,10 @@ img {
 }
 
 .qualification [data-content] {
-  display: non;
+  display: none;
 }
 
-.qualification_active [data-content] {
+.qualification_active[data-content] {
   display: block;
 }
 
