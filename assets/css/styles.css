@@ -245,7 +245,7 @@ img {
 .nav_close {
   position: absolute;
   right: 1.3rem;
-  bottom: 0.5rem;
+  bottom: .5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
@@ -266,7 +266,7 @@ img {
 
 /* Change background header */
 .scroll-header {
-  box-shadow: 0 -1px 4 px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
 /*==================== HOME ====================*/
 .home_container {
@@ -274,7 +274,7 @@ img {
 }
 
 .home_content {
-  grid-template-columns: 0.5fr 3fr;
+  grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
   align-items: center;
 }
@@ -328,11 +328,11 @@ img {
 
 .home_scroll-button {
   color: var(--first-color);
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .home_scroll-button:hover {
-  transform: translateY(0.25rem);
+  transform: translateY(.25rem);
 }
 
 .home_scroll-mouse {
@@ -356,7 +356,7 @@ img {
   background-color: var(--first-color);
   color: #fff;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   font-weight: var(--font-medium);
 }
 
@@ -367,7 +367,7 @@ img {
 .button_icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .button--white {
@@ -406,7 +406,7 @@ img {
 /*==================== ABOUT ====================*/
 .about_img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   justify-self: center;
   align-self: center;
 }
@@ -475,7 +475,7 @@ img {
 
 .skills_arrow {
   margin-left: auto;
-  transition: 0.4s;
+  transition: .4s;
 }
 
 .skills_list {
@@ -497,7 +497,7 @@ img {
 .skills_bar,
 .skills_percentage {
   height: 5px;
-  border-radius: 0.25rem;
+  border-radius: .25rem;
 }
 
 .skills_bar {
