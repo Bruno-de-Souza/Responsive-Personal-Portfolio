@@ -326,27 +326,27 @@ img {
   display: none;
 }
 
-.home_scroll-button {
+.home_scroll-button{
   color: var(--first-color);
   transition: .3s;
 }
-
-.home_scroll-button:hover {
+ 
+.home_scroll-button:hover{
   transform: translateY(.25rem);
 }
 
-.home_scroll-mouse {
+.home_scroll-mouse{
   font-size: 2rem;
 }
 
-.home_scroll-name {
+.home_scroll-name{
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
 }
 
-.home_scroll-arrow {
+.home_scroll-arrow{
   font-size: 1.25rem;
 }
 
@@ -1208,7 +1208,7 @@ img {
   .project_data {
     padding-top: .8rem;
   }
-  .footer {
+  .footer_container {
     grid-template-columns: repeat(3, 1fr);
   }
   .footer_bg {
@@ -1249,7 +1249,7 @@ img {
   }
   .swiper-button-prev {
     left: -3.5rem;
-  }
+  }ho
   .swiper-button-next {
     right: -3.5rem;
   }
